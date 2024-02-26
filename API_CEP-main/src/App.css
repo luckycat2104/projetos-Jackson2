@@ -1,0 +1,22 @@
+.container{
+  background-color: azure;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  border-style: double;
+  border-radius: 20px;
+  width: 80%;
+}
+
+.imput{
+  text-align: center;
+  border-radius: 20px;
+  width: 250px;
+  height: 35px;
+  font-size: medium;
+}
+
+.button{
+  border-radius: 20px;
+
+}

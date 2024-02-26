@@ -1,0 +1,30 @@
+body{
+  background-color: rgb(174, 201, 201);
+  color: rgb(36, 52, 102);
+}
+
+h1{
+  text-align: center;
+  font-family: 'Lessti', sans-serif;                    
+}
+.form{
+  text-align: center;
+}
+input{
+  border-radius: 20px;
+  border: none;
+  height: 20px;
+  margin-top: 10px;
+  background-color: azure;
+  text-align: center;
+  color: rgb(36, 52, 102);
+}
+button{
+  border-radius: 20px;
+  border: none;
+  margin-top: 15px;
+  height: 30px;
+  width: 100px;
+  background-color: azure;
+  color: rgb(42, 67, 143);
+}
