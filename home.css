@@ -1,0 +1,284 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html,
+body {
+  height: 100%;
+  min-height: 100%
+}
+
+.background1 {
+    background: url(./srs/fundo1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 110vh;
+  }
+
+  .superior {
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    background: rgba(255,255,255,0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+  #caixa1{
+    width: 90vw;
+    height: 40vw;
+    margin-top: 5em;
+  }
+
+  .letrasGrandes{
+    font-family: 'CHAVTER', sans-serif;      
+    font-weight: 100;
+  }
+
+  .letrasPequenas{
+    font-family: 'Red Hat Mono', sans-serif;
+    font-weight: 600;
+  }
+
+  .botaoAlto{
+    margin-top: 5em;
+    border-color: transparent;
+    background-color: transparent;
+    font-size: 1.2vw;
+  }
+
+  .btAltprm{
+    margin-left: 7em;
+  }
+
+  .btAltSeg{
+    margin-left: 3em;
+  }
+
+  .botaoAlto:hover {
+    color: rgb(141, 0, 0);
+  }
+
+  #TituloHome{
+    margin-left: 0.7em;
+    margin-top: 0.4em;
+    font-size: 12vw;
+  }
+
+  #estudEns{
+    font-size: 2vw;
+    margin-left: 4.4em;
+    margin-top: -2em;
+  }
+
+.botaoredondo{
+  border-radius: 7vw;
+    background-color: transparent;
+    border-color: black;
+    font-size: 1.5vw;
+}
+
+  #BtSobreMim{
+    margin-left: 8vw;
+    margin-top: 3vh;
+    height: 9vh;
+    width: 17vw;
+  }
+
+  .botaoredondo:hover{
+    color: rgb(141, 0, 0);
+    border-color: rgb(141, 0, 0);
+  }
+
+  .Mana2{
+    position: absolute;
+    right: 10px;
+    width: 37vw;
+  }
+
+         /*  AQUI COMEÇA A SEGUNDA PARTE!!!! */
+
+  #background2{
+    background: url(./srs/fundo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 110vh;
+  }
+
+  #fotoEu{
+    position: absolute;
+    height: 125vh;
+    margin-left: 7vw;
+  }
+
+  #caixaEu1{
+    width: 45vw;
+    height: 40vw;
+    margin-top: 115vh;
+    margin-left: 43vw;
+  }
+
+  #nomekk{
+    font-size: 10vh;
+    margin-top: 10vh;
+    margin-left: 6vw;
+  }
+
+.EXPsobreMim{
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-top: 3vh;
+    font-size: 1.5vw;
+ }
+
+#botaoMais{
+  height: 8vh;
+  width: 17vw;
+  margin-left: 5vw;
+  margin-top: 5vh;
+}
+
+#botaoCurr{
+  height: 8vh;
+  width: 17vw;
+  margin-left: 1vw;
+}
+
+        /*  AQUI COMEÇA A TERCEIRA PARTE!!!! */
+
+
+#fundo3{
+  background-image:url("./srs/fundo3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+#atsushi{
+  height: 100vh;
+  width: 32% !important;
+  margin-left: 55vw;
+}
+
+#baterista{
+  height: 100vh;
+  width: 35% !important;
+  margin-left: 55vw;
+}
+
+#jiluka{
+  height: 100vh;
+  width: 40% !important;
+  margin-left: 50vw;
+}
+
+#kyuho{
+  height: 100vh;
+  width: 35% !important;
+  margin-left: 55vw;
+}
+
+.materias{
+  height: 80vh;
+  width: 80vw;
+  z-index: -1;
+}
+
+.carousel-control-prev{
+  margin: 0;
+  position: absolute;
+  left: -1.5vw;
+}
+
+.carousel-control-next{
+  margin: 0;
+  position: absolute;
+  right: -2.5vw;
+}
+
+.TitulMat{
+  margin-top: 10vh;
+  margin-left: 5vw;
+  font-size: 20vh;
+}
+
+.tri{
+  background-color: transparent;
+  border-color: transparent;
+  margin-left: 2vw;
+  font-size: 3vh;
+}
+
+.tri1{
+  margin-left: 5vw;
+}
+
+.tri:hover{
+  color: rgb(141, 0, 0);
+}
+
+.botaoPPE{
+  width: 10vw;
+  margin-left: 5vw;
+  margin-top: 5vh;
+}
+
+
+        /*  SOBRE MIM  !!!! */
+
+#backgroundSobreMim{
+  background-image: url(./srs/fundo2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+#euDeNovo{
+  position: absolute;
+  height: 104vh;
+  margin-left: 3vw;
+}
+
+#caixaSobreMim{
+  height: 73vh;
+  width: 60vw;
+  margin-left: 33vw;
+}
+
+#maisSobreMim{
+  font-size: 7vh;
+  margin-top: 5vh;
+  margin-left: 3vw;
+}
+
+#maisSobreMimTXT{
+  margin-left: 3vw;
+  margin-right: 3vw;
+  font-size: 3vh;
+  text-align: justify;
+}
+
+#botaoVoltarEu{
+  margin-left: 3vw;
+  margin-top: 4vh;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+#botaoVoltarEu:hover{
+  color: rgb(141, 0, 0);
+}
+
+       /*  EM BREVE  !!!! */
+
+.imageneskk{
+  display: inline-flex;
+  float: right;
+}

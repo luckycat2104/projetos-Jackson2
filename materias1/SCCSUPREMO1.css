@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;  
+}
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+}
+
+.letrasGrandes{
+  font-family: 'CHAVTER', sans-serif;      
+  font-weight: 100;
+}
+
+.letrasPequenas{
+  font-family: 'Red Hat Mono', sans-serif;
+  font-weight: 600;
+}
+
+.fundoCaveiras{
+  background: url(./srs1/fundoMaterias.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  padding: 0px;
+}
+
+.tituloMateria{
+  font-size: 20vh;
+  margin-left: 5vw;
+  color: rgb(141, 0, 0);
+}
+
+.superior {
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  background: rgba(255,255,255,0.3);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.atividades{
+  height: 70vh !important;
+  width: 80vw;
+  padding-top: 7vh;
+  padding-left: 4vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.texto{
+  width: 35vw;
+  text-align: justify;
+}
+
+.bagulhetinhoDaDireita{
+  float: right;
+  display: flex;
+  flex-direction: column;
+}
